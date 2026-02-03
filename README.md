@@ -57,7 +57,6 @@ This approach guarantees a valid probability density function and stable paramet
 - Feature Used: $NO_2$ 
 - Link: https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data  
 
-The dataset is downloaded locally and loaded using pandas.
 
 ---
 

@@ -4,13 +4,13 @@
 
 The objective of this assignment is to analyze environmental air-quality data by applying a roll-number-based non-linear transformation and learning the parameters of a probability density function using Maximum Likelihood Estimation (MLE).
 
-The NO2 feature from the India Air Quality dataset is used for this study.
+The $NO_2$ feature from the India Air Quality dataset is used for this study.
 
 ---
 
 ## 2. Data Transformation
 
-Each original data point x (NO2 concentration) is transformed into a new variable z using the following transformation:
+Each original data point x ($NO_2$ concentration) is transformed into a new variable $z$ using the following transformation:
 
 $$z = T_{r}(x) = x + a_r \sin(b_r x)$$
 
@@ -27,7 +27,7 @@ This transformation introduces a controlled non-linear variation in the data.
 
 ## 3. Probability Density Model
 
-The transformed variable z is modeled using the following probability density function:
+The transformed variable $z$ is modeled using the following probability density function:
 
 $$\hat{p}(z) = c \cdot e^{-\lambda(z-\mu)^2}$$
 
@@ -82,5 +82,3 @@ The fitted curve closely follows the data distribution, indicating a good model 
 ## 7. Conclusion
 
 This assignment demonstrates how non-linear transformations influence data distributions and how Maximum Likelihood Estimation can be used to reliably learn probability density parameters. The learned model effectively captures the central tendency and spread of the transformed $NO_2$ data.
-
----
